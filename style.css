@@ -1,0 +1,313 @@
+/* +++++++++++++++++++++++++++++++++++++++++++
+   comments
+++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*
+  text-shadow: 1px 1px 0px #d8b045;
+  -webkit-box-shadow: #ffc001 0px 1px 1px;
+  -moz-box-shadow: #ffc001 0px 1px 1px;
+  box-shadow: #ffc001 0px 1px 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  behavior: url("/css/PIE.htc");
+*/
+/*@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }*/
+
+/* +++++++++++++++++++++++++++++++++++++++++++
+  default style
+++++++++++++++++++++++++++++++++++++++++++++*/
+* {
+	outline: none !important;
+}
+html {
+}
+
+body {
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  align: center;
+  background: url(../i/img.jpg) no-repeat, center;
+  background-size: cover;
+}
+
+.text {
+  margin-left: 550px;
+  font-size: 50px;
+  line-height: 2.0; 
+}
+
+.alfavit div {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  color: #3333FF;
+  border-radius: 10px;
+  margin-left: 45px;
+  font-size: 36px;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 1px solid #888;
+    -moz-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    -webkit-transition: all 1.5s ease-out;
+}
+
+
+
+.alfavit div:hover {
+background-color: #99FFFF;
+color: #3333FF;
+font-size: 56px;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+}
+
+@media screen and (max-width: 1070px) {
+  .text {
+    margin-left: 400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .text {
+    margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text {
+    margin-left: 150px;
+  }
+}
+
+
+
+
+                                   /*Alfavit_Task_page*/
+
+.b {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 80px;
+  font-size: 36px;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 1px solid #888;
+-moz-transition: all 2s ease-out;
+-o-transition: all 2s ease-out;
+-webkit-transition: all 2s ease-out;
+}
+
+
+#place1,
+#place2,
+#place3,
+#place4 {
+  border-radius: 10px 0 10px 0;
+  box-shadow: 3px 3px 6px 3px #fff;
+}
+
+/*#bukva {
+  border-radius: 100px; 
+  box-shadow: 0 0 0 3px green, 0 0 13px #333; 
+}*/
+
+.bukva img{
+  width: 200px;
+  height: 200px;
+  /*background: url(../i/letters/0.jpg) no-repeat, center;*/
+  background-color: white;
+  border-radius: 100px;
+  margin-left: 80px;
+  font-size: 36px;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  margin-top: 40px;
+  cursor: pointer;
+  border: 1px solid #888;
+-moz-transition: all 2s ease-out;
+-o-transition: all 2s ease-out;
+-webkit-transition: all 2s ease-out;
+}
+
+.info {
+  width: 640px;
+  height: 60px;
+  background-color: white;
+  margin-left: 200px;
+  margin-top: 200px;
+  border-radius: 10px;
+  float: left;
+  border: 1px solid #888;
+/*-moz-transition: all 2s ease-out;
+-o-transition: all 2s ease-out;
+-webkit-transition: all 2s ease-out;*/
+}
+
+.info img {
+   width: 40px;
+   height: 40px;
+   margin: 10px 10px;
+   /*opacity: 0.4;*/
+}
+
+.b img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.button_back {
+  float: left;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.button_back_cartoon {
+  float: left;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+
+.buttonText {
+  font: 24px/1.5 Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#button1 {
+  background: #6292c2;
+  border: 2px solid #eee;
+  height: 35px;
+  width: 200px;
+  margin: 0 auto;
+  padding: 0 0 0 7px;
+  overflow: hidden;
+  display: block;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+/*  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));*/
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
+  -ms-transition: All 0.5s ease;
+  transition: All 0.5s ease;
+}
+
+#button1:hover {
+    width: 350px;
+  }
+
+  #boom{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin:0 auto;
+  }
+
+
+                                   /*END Alfavit_Task_page*/
+
+
+                                        /*Cartoon*/
+
+div.voice {
+  border-radius: 100px;
+}
+.voice {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+
+}
+
+.tv {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-left: 100px;
+  margin-top: 100px;
+  float: left;
+  border-radius: 10px 20px;
+  border: 5px solid #00ccff;
+}
+
+.tv iframe {
+/*  border-radius: 6px 16px;
+  -moz-transition: all 1.5s ease-out;
+ -o-transition: all 1.5s ease-out;
+ -webkit-transition: all 1.5s ease-out;*/
+}
+
+.tv iframe:hover {
+/*   -webkit-transform: scale(2);
+ -moz-transform: scale(2);
+ -o-transform: scale(2);*/
+ border: 5px solid #00ccff;
+}
+
+
+                                      /*END Cartoon*/
+
+
+                                  
+
+
+                                   /*JQ_hover*/
+
+#bm {
+    background-image: url('http://bit.ly/UpQgJ6');
+    repeat: no-repeat;
+}
+
+#boom div {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #008800;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#003500), to(#008800));
+    background-image: -webkit-linear-gradient(left, #003500, #008800); 
+    background-image:    -moz-linear-gradient(left, #003500, #008800);
+    background-image:     -ms-linear-gradient(left, #003500, #008800);
+    background-image:      -o-linear-gradient(left, #003500, #008800);
+}
+
+.red {
+    background-color: #CC0000;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#330000), to(#CC0000));
+    background-image: -webkit-linear-gradient(left, #330000, #CC0000); 
+    background-image:    -moz-linear-gradient(left, #330000, #CC0000);
+    background-image:     -ms-linear-gradient(left, #330000, #CC0000);
+    background-image:      -o-linear-gradient(left, #330000, #CC0000);
+}
+                                   /*END JQ_hover*/
+
+
